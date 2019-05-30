@@ -1,0 +1,36 @@
+<project name="ServicesProviderEJB" default="jar">
+
+	<!-- ============ Project Settings ====================================-->
+	<property environment="env" />
+	<property name="PROJECT_HOME" value="./" />
+	<property name="BUILD_DIR" value="${PROJECT_HOME}/build" />
+	<property name="JAVA_BUILD_DIR" value="${BUILD_DIR}" />
+	<property name="JAVA_SRC_DIR" value="${PROJECT_HOME}/src" />
+	<property name="MEDIATOR_JAR_DIR" value="../ServicesProviderInstallers/lib/services" />
+	
+	<target name="init">
+		<tstamp>
+			<format property="now" pattern="MMM d yyyy hh:mm aa" />
+		</tstamp>
+		<echo>${now}</echo>
+	</target>
+
+
+	<!-- =========== Jar DEV ======================================================= -->
+	<target name="jar" depends="init">
+		<jar jarfile="${MEDIATOR_JAR_DIR}/ServicesProviderEJB.jar">
+			<manifest>
+				<attribute name="Built-By" value="${user.name}" />
+				<section name="Alodiga">
+					<attribute name="Implementation-Title" value="ServicesProviderEJB" />
+					<attribute name="Implementation-Build-Date" value="${now}" />
+					<attribute name="Implementation-Vendor" value="" />
+				</section>
+			</manifest>
+			
+			<fileset dir="${JAVA_BUILD_DIR}">
+				<exclude name="*.jar" />
+			</fileset>
+		</jar>
+	</target>
+</project>

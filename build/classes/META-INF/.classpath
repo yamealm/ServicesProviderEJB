@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/AuthorizeNetIntegration"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/InteraxTelephonyCommons"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MlatSmsIntegration"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/PrepayNationIntegration"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ServicesProviderCommons"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/SisacCommons"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/SmsTelintelIntegration"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TranferToNautaIntegration"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/EasyCallSoapIntegration"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CSQTopUpIntegration"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TeleserviciosBillpaymentIntegration"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/WSOrderAndInvoiceClient"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/WsPaymentMethodClient"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/WsRechargeKKDIClient"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TransferToTopUpIntegration"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Glassfish"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/InteraxTelephony ThirdParty"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Services ThirdParty"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
