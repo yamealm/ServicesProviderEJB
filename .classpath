@@ -4,6 +4,6 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/ServicesProviderCommons"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ServicesLibraries"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/GlassfishLibraries"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/GlaasfishLibraries"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
